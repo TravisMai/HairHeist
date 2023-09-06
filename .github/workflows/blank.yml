@@ -21,6 +21,5 @@ jobs:
     - name: Install Dependencies
       run: npm install
 
-    - name: Deploy to Production
-      if: success()
-      run: npm start
+    - name: Run Tests
+      run: npm test
